@@ -1628,6 +1628,7 @@ body {
 .grid {
   display: grid;
   grid-template-columns: 1fr;
+  gap: 16px;
 }
 
 @media (width >= 768px) {
@@ -1640,10 +1641,6 @@ body {
   .grid-lg-4 {
     grid-template-columns: repeat(4, 1fr);
   }
-}
-
-#projects .grid {
-  gap: 16px;
 }
 
 #projects article {
@@ -1665,4 +1662,32 @@ body {
     height: 100%;
     object-fit: cover;
   }
+}
+
+#team-cards .grid {
+  row-gap: 2rem;
+}
+
+#team-cards article {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  & >* {
+    margin-block: 0;
+  }
+
+  & >img {
+    width: 100%;
+  }
+}
+
+.btn {
+  padding-block: 1rem;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn-light {
+  background-color: #f1f1f1;
 }

@@ -1692,6 +1692,10 @@ body {
   & >img {
     width: 100%;
   }
+
+  & .position {
+    opacity: 0.6;
+  }
 }
 
 .btn {

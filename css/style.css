@@ -1658,7 +1658,7 @@ body {
 #projects article {
   position: relative;
 
-  & >h4 {
+  & >.title {
     position: absolute;
     top: 0;
     left: 0;

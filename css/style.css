@@ -1719,7 +1719,7 @@ body {
     resize: none;
   }
 
-  & button[type="submit"], & input[type="submit"] {
+  & button, & input[type="submit"] {
     width: max-content;
     border: none;
     padding: 24px 16px 8px;

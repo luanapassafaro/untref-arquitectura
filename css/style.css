@@ -1691,6 +1691,10 @@ body {
     width: 100%;
   }
 
+  & .name {
+    font-size: 1.52rem;
+  }
+
   & .position {
     opacity: 0.6;
   }
